@@ -4,9 +4,9 @@ import java.util.function.BiFunction;
 
 public class Sample {
 
-    public int op(Operation op, int a, int b) {
+    /*public int op(Operation op, int a, int b) {
         return op.func.apply(a, b);
-    }
+    }*/
 
     public int fact(int n) {
         if (n < 0) {
@@ -15,7 +15,7 @@ public class Sample {
         return n == 0 ? 1 : n * fact(n - 1);
     }
 
-    enum Operation {
+   /* enum Operation {
         ADD((a, b) -> a + b),
         MULT((a, b) -> a * b),
         ;
@@ -25,5 +25,5 @@ public class Sample {
         Operation(BiFunction<Integer, Integer, Integer> func) {
             this.func = func;
         }
-    }
+    }*/
 }

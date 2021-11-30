@@ -13,13 +13,12 @@ class SampleTest {
 
     @Test
     void notNegatifNumber() {
-        int var1 = 0;
+
         int var2=3;
         Sample s=new Sample();
-        int facto=s.fact(var1);
+       ;
         int facto1=s.fact(var2);
-        Assertions.assertThat(facto).as("fact 0")
-            .isEqualTo(1); // (3)
+
         Assertions.assertThat(facto1).as("fact 0")
             .isEqualTo(6); // (3)
 
