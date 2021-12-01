@@ -23,7 +23,7 @@ class SampleTest {
             .isEqualTo(6); // (3)
 
 }
-    
+  /*  
     @Test
     void  op_add_2_1_equal_3() {
          int var2=2 ;
@@ -36,7 +36,18 @@ class SampleTest {
             .isEqualTo(3); 
 
     }
-    
+    @Test
+    void notNegatifNumber1() {
+
+        int var2=-5;
+        Sample s=new Sample();
+
+        int facto1=s.fact(var2);
+
+        Assertions.assertThat(facto1).as("N should be positive")
+            .isEqualTo("N should be positive"); // (3)
+
+    }
 @Test
     void  op_mult_2_1_equal_2() {
          int var2=2 ;
@@ -49,5 +60,6 @@ class SampleTest {
             .isEqualTo(2); 
 
     }
+    */
     
 }
