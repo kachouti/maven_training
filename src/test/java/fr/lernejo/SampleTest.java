@@ -33,7 +33,7 @@ class SampleTest {
         int op_add=s.op(op1,var1,var2);
 
         Assertions.assertThat(op_add).as("2 add 1 equal 3")
-            .isEqualTo("3"); 
+            .isEqualTo(3); 
 
     }
     
@@ -46,7 +46,7 @@ class SampleTest {
         int op_mult=s.op(op1,var1,var2);
 
         Assertions.assertThat(op_mult).as("2 mult 1 equal 2")
-            .isEqualTo("2"); 
+            .isEqualTo(2); 
 
     }
     
