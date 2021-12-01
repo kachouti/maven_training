@@ -23,16 +23,5 @@ class SampleTest {
             .isEqualTo(6); // (3)
 
 }
-    @Test
-    void notNegatifNumber1() {
-
-        int var2=-5;
-        Sample s=new Sample();
-
-        int facto1=s.fact(var2);
-
-        Assertions.assertThat(facto1).as("N should be positive")
-            .isEqualTo("N should be positive"); // (3)
-
-    }
+    
 }
